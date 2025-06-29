@@ -15,7 +15,6 @@ public static void main(String[] args) {
 		
 	}
 	
-	
 	for (int i : ar) {
 		
 		System.out.print("   " + i);
