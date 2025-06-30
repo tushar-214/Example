@@ -2,6 +2,7 @@ package com.basics.sorting;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class StudentTest {
@@ -15,6 +16,9 @@ public static void main(String[] args) {
 	List<Student> list=Arrays.asList(emp,emp1,emp2,emp3);
 	//Collections.sort(list,new StudentSortById());
 	Collections.sort(list,new StudentSortByName());
+	//list.stream().sorted(Comparator.comparing(Student::getSid)).toList();
+	//list.stream().sorted(Comparator.comparing((s) -> s.getSid())).toList();
+	
 	
 	System.out.println(list);
 }
