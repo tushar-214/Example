@@ -12,7 +12,7 @@ public static void main(String[] args) {
 	// here we have create the array of 256 and the there ascii code 
 	
 	// in the based on the asci
-	
+	// added
 	for(int i=0;i<ch.length;i++)
 	{
 		if(ch[i]>1)
