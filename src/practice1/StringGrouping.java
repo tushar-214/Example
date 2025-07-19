@@ -10,6 +10,8 @@ public class StringGrouping {
 		List<String> list =Arrays.asList("Tushar1","ganesh","vishal","blob","slot","gold");
 		Map<Integer, List<String>> grp=list.stream().collect(Collectors.groupingBy(x ->x.length()));
 		System.out.println(grp);
+
+		//gi
 	}
 
 }
