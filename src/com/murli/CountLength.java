@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 
 public class CountLength {
 	public static void main(String[] args) {
+		// count the element 
 		
 		List<String> str=Arrays.asList("tushar","atul","tushar","rahul","diksha","rushab","ravindra","atul");
 
